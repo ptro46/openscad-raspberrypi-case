@@ -1,0 +1,98 @@
+{
+    "parameterSets":
+    {
+        "rpi-case-bottom-cluster-1": {
+            "do_pi_bas": true,
+            "do_hdmi": false,
+            "do_jack": false,
+            "do_supports_pi": true,
+            "do_supports_cluster" : true,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-cluster-2": {
+            "do_pi_bas": true,
+            "do_hdmi": true,
+            "do_jack": false,
+            "do_supports_pi": true,
+            "do_supports_cluster" : true,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-cluster-3": {
+            "do_pi_bas": true,
+            "do_hdmi": true,
+            "do_jack": true,
+            "do_supports_pi": true,
+            "do_supports_cluster" : true,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-cluster-4": {
+            "do_pi_bas": true,
+            "do_hdmi": false,
+            "do_jack": true,
+            "do_supports_pi": true,
+            "do_supports_cluster" : true,
+            "do_pi_lid": false
+        } ,
+
+        "rpi-case-bottom-no-cluster-1": {
+            "do_pi_bas": true,
+            "do_hdmi": false,
+            "do_jack": false,
+            "do_supports_pi": true,
+            "do_supports_cluster" : false,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-no-cluster-2": {
+            "do_pi_bas": true,
+            "do_hdmi": true,
+            "do_jack": false,
+            "do_supports_pi": true,
+            "do_supports_cluster" : false,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-no-cluster-3": {
+            "do_pi_bas": true,
+            "do_hdmi": true,
+            "do_jack": true,
+            "do_supports_pi": true,
+            "do_supports_cluster" : false,
+            "do_pi_lid": false
+        } ,
+        "rpi-case-bottom-no-cluster-4": {
+            "do_pi_bas": true,
+            "do_hdmi": false,
+            "do_jack": true,
+            "do_supports_pi": true,
+            "do_supports_cluster" : false,
+            "do_pi_lid": false
+        } ,
+
+
+        "rpi-case-top-cluster-with-aeration": {
+            "do_pi_bas": false,
+            "do_supports_cluster": true,
+            "do_pi_lid": true,
+            "do_aerations_lid": true
+        },
+        "rpi-case-top-cluster-without-aeration": {
+            "do_pi_bas": false,
+            "do_supports_cluster": true,
+            "do_pi_lid": true,
+            "do_aerations_lid": false
+        },
+        "rpi-case-top-no-cluster-with-aeration": {
+            "do_pi_bas": false,
+            "do_supports_cluster": false,
+            "do_pi_lid": true,
+            "do_aerations_lid": true
+        },
+        "rpi-case-top-no-cluster-without-aeration": {
+            "do_pi_bas": false,
+            "do_supports_cluster": false,
+            "do_pi_lid": true,
+            "do_aerations_lid": false
+        }
+
+    },
+    "fileFormatVersion": "1"
+}
